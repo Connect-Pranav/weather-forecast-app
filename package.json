@@ -21,7 +21,7 @@
     "tailwindcss": "^3.3.0",
     "postcss": "^8.4.0",
     "autoprefixer": "^10.4.0",
-    "three": "^r158",
+    ""three": "^0.158.0"",
     "@react-three/fiber": "^8.14.0",
     "@react-three/drei": "^9.98.0",
     "framer-motion": "^10.16.0",
