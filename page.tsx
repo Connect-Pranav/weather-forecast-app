@@ -1,12 +1,14 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useWeatherStore } from '@/lib/weather/weather-store';
-import Navigation from '@/components/navigation/Navigation';
-import WeatherHero from '@/components/weather/WeatherHero';
-import WeatherDetails from '@/components/weather/WeatherDetails';
-import HourlyForecast from '@/components/forecast/HourlyForecast';
-import DailyForecast from '@/components/forecast/DailyForecast';
+
+import { useWeatherStore } from './weather-store';
+
+import Navigation from './Navigation';
+import WeatherHero from './WeatherHero';
+import WeatherDetails from './WeatherDetails';
+import HourlyForecast from './HourlyForecast';
+import DailyForecast from './DailyForecast';
 
 export default function Home() {
   const { loadInitialData } = useWeatherStore();
